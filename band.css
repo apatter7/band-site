@@ -1,0 +1,277 @@
+html,body{
+  overflow:auto;
+  padding-right:0 !important;
+}
+
+.navbar{
+	margin-bottom:0;
+	height:50px;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+	background-color:black !important;
+}
+
+a{
+	background-color:black !important;
+}
+
+.dropdown-menu{
+	width:30%;
+}
+
+.carousel-fade 
+    .carousel-inner 
+        .item {
+            transition-property: opacity;
+        }
+
+.carousel-inner>.item>img{
+max-width:100%;
+max-height:100%;
+
+}
+
+h3{
+	font-size:30px;
+}
+
+h1{
+	text-align:center;
+	padding-top:60px;
+}
+
+h4{
+	color:gray;
+	font-weight:lighter;
+	font-size:14px;
+	text-align:center;
+}
+
+.fa.fa-search{
+	text-align:right;
+	display:block;
+	position:relative;
+	margin-top:-35px;
+	font-size:20px;
+	color:#9d9d9d;
+}
+
+.band-content{
+	text-align:center;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.band-image{
+	height:250px;
+	width:430px;
+	display:block;
+	margin: 0 auto;	
+}
+
+#tour-dates{
+	background-color:black;
+	color:white;
+}
+
+ul{
+	width:850px;
+	margin: 0 auto;
+	display:block;
+	margin-top:40px;
+	padding-right:40px;
+  max-width:100%;
+}
+
+.list{
+	background:white;
+	list-style-type:none;
+	color:gray;
+	padding:10px;
+	border:.5px solid lightgray;
+}
+
+.sold-out{
+	background-color:red;
+	padding:5px;
+	padding-right:10px;
+	margin-left:20px;
+	color:white;
+}
+
+.number{
+	background-color:black;
+	padding:5px 10px 5px 6px;
+	border-radius:50%;
+	margin-left:85%;
+}
+
+#ticket{
+	display:inline;
+  max-width:100%;
+}
+
+.ticket-event{
+	text-align:left;
+	color:black;
+}
+	
+div.row.no-gutter {
+  display:flex;
+  justify-content:center;
+  padding-top:30px;
+  padding-bottom:80px;
+  max-width:100%;
+  margin-left:-3px;
+  
+}
+
+#dub{
+	display:inline;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#words{
+	background:white;
+	padding-top:10px;
+	color:black;
+	padding-left:10px;
+	padding-bottom:15px;
+}
+
+.date{
+	color:gray;
+}
+
+#buy{
+	background:black;
+	color:white;
+	border:none;
+	padding:10px 15px 10px 15px;
+}
+
+#buy:hover{
+  background-color:grey;
+}
+
+.modal-title{
+  background-color:#009688;
+  color:white;
+  padding-top:30px;
+  padding-bottom:30px;
+  font-size:30px;
+}
+
+#email{
+  padding-top:20px;
+}
+
+#popup{
+  width:100%;
+}
+
+#pay{
+  width:100%;
+  margin-top:20px;
+  border:none;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#009688;
+  color:white;
+}
+
+#close{
+  background-color:#f44336;
+  color:white;
+}
+
+.close{
+  font-size:25px;
+  padding-right:10px;
+  padding-top:5px
+}
+
+.contact{
+	
+	display:block;
+	position:relative;
+	margin-left:40%; 
+	font-size:17px;
+}
+
+.submit{
+	display:block;
+	margin-left:71%;
+	background:black;
+	border:none;
+	padding:10px 15px 10px 15px;
+	color:white;
+	margin-bottom:80px;
+}
+.fan{
+	padding-bottom:50px;
+}
+
+input{
+	height:40px;
+	padding-left:10px;
+	margin-right:15px;
+}
+
+.col3{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:90%;
+}
+.footer{
+	margin-bottom:10%;
+	text-align:center;
+	margin-top:50px;
+	font-size:25px;
+}
+.icons{
+	font-size:25px;
+	text-align:center;
+	position:relative;
+	margin-bottom:80px;
+}
+
+
+@media(max-width:750px ){
+  
+  form{
+  text-align:center;
+}
+  
+  #sf, #ny,{
+  width:30%;
+}
+.sf, .ny, .dub{
+  width:100%;
+}
+ .contact{
+	margin-left:20%; 
+}
+
+.number{
+	margin-left:79%;
+}
+
+
+}
+
+
+@media(max-width:455px){
+  .band-image{
+	height:166.6px;
+	width:300px;	
+}
+
+.number{
+	margin-left:70%;
+}
+}
+
+ 
